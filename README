@@ -1,0 +1,9 @@
+README -- General information about this project
+
+Copyright 2012 Jan Minar <rdancer@rdancer.org>
+
+The game of Reversi (a.k.a. Othello) with a text terminal (curses) interface.
+
+Solution of an assignment in the Symbolic Programming submodule (Programming
+and Reasoning module of the BSc Computer Science degree course at Durham
+University), January 2012.
