@@ -1,0 +1,31 @@
+Name:           reversi-rdancer
+Version:        0.0.1
+License:        LGPL
+License-file:   LICENSE
+Author:         Jan Minar <rdancer@rdancer.org>
+Copyright:      Jan Minar 2012
+Maintainer:     Jan Minar <rdancer@rdancer.org>
+Stability:      Proof of Concept/Demo
+Category:       Game
+Synopsis:       Reversi (Othello) game playable in a text terminal
+Description:
+    The game of Reversi (a.k.a. Othello) with a text terminal (curses)
+    interface.
+
+    Solution of an assignment in the Symbolic Programming submodule
+    (Programming and Reasoning module of the BSc Computer Science degree course
+    at Durham University), January 2012.
+Homepage:       https://github.com/rdancer/reversi
+Cabal-version: >= 1.6
+Build-Type:     Configure
+Tested-with:    GHC==7.0.3
+Data-files:
+    README
+
+Source-Repository head
+  Type:           git
+  Location:       git://github.com/rdancer/reversi.git
+
+Executable reversi-rdancer
+  Main-is:	  Main.hs
+  Build-depends:  base, hscurses == 1.4.1.0
