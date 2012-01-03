@@ -1,0 +1,12 @@
+# .gitignore -- list of files Git must ignore
+
+# Cabal
+dist
+*.buildinfo
+*.o
+*.hi
+cabal-dev
+
+# Vim backup and swap files
+*~
+.*.sw?
